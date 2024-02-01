@@ -1,15 +1,16 @@
 .navbar{
   background:  linear-gradient(blueViolet
-  ,rgb(244, 229, 229));
+  ,rgb(255, 255, 255));
   width: 100%;
   height: 7rem;
   display: flex;  
   justify-content: space-around;
+  border-bottom: 1px solid rgb(184, 184, 184);
 }
 
 .navbar > button{
   background:  linear-gradient(blueViolet
-  ,rgb(244, 229, 229));
+  ,rgb(255, 255, 255));
     border: none;
 }
 
