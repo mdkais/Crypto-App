@@ -5,12 +5,21 @@
     flex-wrap: wrap;
     margin: 1rem 2rem;
     gap: 1rem;
+    
 }
 
 .coin-display{
     padding: 1rem;
         gap: 1rem;
         border: 1px solid rgb(244, 229, 229);
+}
+
+.coin-display:hover{
+            cursor: pointer;
+            background: linear-gradient(rgb(187, 143, 227)
+            ,rgb(244, 229, 229), rgb(255, 255, 255));
+            border: blueviolet;
+            transition: all .3s ease-in;
 }
 
 .exchange-page {
@@ -31,4 +40,13 @@
             border: 1px solid rgb(244, 229, 229);
   /*  background-color: rgb(208, 208, 208);*/
     padding: 2.2rem;
+}
+
+.exchange-display:hover{
+    cursor: pointer;
+    background: linear-gradient(rgb(187, 143, 227)
+    ,rgb(244, 229, 229));
+    border: blueviolet;
+    border-radius: 2rem;
+    transition: all .2s ease-in;
 }
