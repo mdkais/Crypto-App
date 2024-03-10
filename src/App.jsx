@@ -6,7 +6,10 @@ import Home from './components/home'
 import Coins from './components/coins'
 import Exchanges from './components/exchanges'
 import Coindetails from './components/coindetails'
+import Sell from './components/sell'
+
 import './App.css'
+
 
 function App() {
 
@@ -19,8 +22,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route  path="/coins" element={<Coins/>} />
           <Route path="/exchanges" element={<Exchanges/>} />
-          <Route  path="/coin/:id" element={<Coindetails/>} />
-
+          <Route  path="/coins/:id" element={<Coindetails/>} />
+          <Route  path="/sell/:id" element={<Sell/>} />
+          
       </Routes>
       </BrowserRouter>
     </>

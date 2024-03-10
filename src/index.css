@@ -1,14 +1,26 @@
 .navbar{
-  background-color: blueviolet;
+  font-size: 19px;
+    font-family: monospace;
+    text-decoration: none;
+  background:  linear-gradient(blueViolet
+  ,rgb(255, 255, 255));
   width: 100%;
   height: 7rem;
-  display: flex;  
+  margin-bottom: 2rem;
+  
+  display: flex;
+  align-items: center;  
   justify-content: space-around;
+    box-shadow: 20x 20px 24px #000000,
+        -24px -24px 27px #ffffff;
 }
 
-.navbar > button{
-    background-color: blueviolet;
+.navBtn{
+  font-weight: bolder;
+ /* background:  linear-gradient(blueViolet
+  ,rgb(255, 255, 255));*/
     border: none;
+    color: black;
 }
 
 .flex{
@@ -41,4 +53,5 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
 */

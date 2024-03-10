@@ -1,0 +1,38 @@
+.formdisplay{
+    padding-left: 37rem;
+    padding-top: 2rem;
+}
+.atext{
+    width:19rem;
+    
+    justify-content: left;
+    text-align: center;
+    height: 1rem;
+    padding: 1rem;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.text{
+    opacity: 0;
+    width: 0%;
+}
+
+.sellbutton{
+    width:2rem;
+    height: 2rem;
+    display: flex;
+    justify-self: end;
+    justify-content: end;
+}
+
+label{
+    font-family: monospace;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+    .formdisplay {
+            padding-left:3px;
+        }
+}

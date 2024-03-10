@@ -5,22 +5,18 @@ import { Button} from 'react-bootstrap';
 const Header = () => {
   return (
     <div className='navbar'>
-           
-      <Button>
-              <Link to=''> Home</Link>
-          </Button>
-
-           <Button>
-              <Link to='/coins'> Coins</Link>
-          </Button>
           
-            <Button>
-              <Link to='/coin/:id'> Coindetails</Link>
-          </Button>
+      <div className='navBtn'>
+              <Link to=''> Home</Link>
+          </div>
 
-           <Button> 
+          <div className='navBtn'>
+              <Link to='/coins'> Coins</Link>
+          </div>
+          
+          <div className='navBtn'> 
               <Link to='/exchanges'> Exchanges</Link>
-           </Button>
+          </div>
     </div>
   )
 }

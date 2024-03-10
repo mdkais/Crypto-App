@@ -1,0 +1,95 @@
+.coinDetails{
+    align-items: center;
+    justify-content: center;
+ text-align: center;
+
+}
+
+.last-date{
+    opacity: 0.55;
+}
+
+.coinInfo h1{
+    font-size: 1.7em;
+    text-align: left;
+    opacity: 0.870;
+}
+.cimage{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    object-fit: contain;
+    width: 15rem;
+}
+
+.cdata{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  box-shadow: 2px 2px 5px black;
+    padding: 2rem;
+    margin:1rem 1rem;
+    opacity: 0.9;
+}
+
+.buyButton{
+    height: 3.4rem;
+        border-radius: 25%;
+    box-shadow: 2px 2px 10px rgb(53, 52, 52);
+    color: black;
+    background: linear-gradient(rgb(254, 92, 92),rgb(255, 156, 156));
+}
+
+.sellButton{
+    height: 3.4rem;
+    border-radius: 25%;
+    box-shadow: 2px 2px 10px rgb(53, 52, 52);
+    color: black;
+    background: linear-gradient(rgba(134, 87, 255, 0.858),rgb(100, 156, 194));
+}
+
+.graphs{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+flex-wrap: wrap;
+gap: 4rem;
+margin-bottom: 2rem;
+}
+.BarChart{
+  width: 35%;
+}
+.LineChart{
+width: 35%;
+}
+.PieChart{
+width: 35%;
+}
+@media screen and (max-width: 550px) {
+.coinDetails {
+        align-items: start;  
+    }
+
+    .coinInfo > h1{
+        font-size: 1em;
+        text-align: left;
+    }
+ .graphs{
+        display: flex;
+            justify-content: space-around;
+flex-wrap: wrap;
+    padding: 2rem;
+        gap: 2rem;
+        margin-bottom: 2rem;
+ }
+ .BarChart ,.LineChart ,.PieChart{
+    width: 100%;
+ }
+}
+
+@media screen and (max-width: 480px) {
+.coinDetails {
+        align-items: end;
+    }
+}
